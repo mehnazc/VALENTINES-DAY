@@ -1,0 +1,84 @@
+
+#inside-content {
+  color: chartreuse;
+  margin-top: 33%;
+}
+
+#content {
+  color: #c3ff00;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/281684/contemporary_china_2.png); */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.normal {
+  height: 100%
+  width: 100%;
+}
+.question {
+  
+  display:flex;
+  align-items: center;
+   justify-content: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.buttons {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+   gap: 25px; 
+}
+#Nbutton  {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  background-color: #5b9299;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 25px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition: font-size 0.5s ease;
+}
+#Nbutton:hover {background-color:  #077395}
+
+#Nbutton:active {
+  background-color: #077395;
+  box-shadow: 0 5px #666;
+}
+.Ybutton {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  background-color: #ef7a85;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 25px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.Ybutton:hover {background-color:  #D31420}
+
+.Ybutton:active {
+  background-color: #C1121F;
+  box-shadow: 0 5px #666;
+}
